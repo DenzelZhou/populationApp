@@ -8,19 +8,19 @@
 		saveButton.addEventListener('tap', function(event) {
 			mui.openWindow({
 				id:"save",
-				url:"../html/save.html",
+				url:"save.html",
 			});
 		});
 		queryButton.addEventListener('tap', function(event) {
 			mui.openWindow({
 				id:"update",
-				url:"../html/update.html",
+				url:"update.html",
 			});
 		});
 		updateButton.addEventListener('tap', function(event) {
 			mui.openWindow({
 				id:"query",
-				url:"../html/query.html",
+				url:"query.html",
 			});
 		});
 		//退后
