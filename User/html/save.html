@@ -11,48 +11,44 @@
 		<title></title>
 		<link href="../../css/mui.min.css" rel="stylesheet" />
 		<link href="../../css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../css/app.css" />	
+		<link href="../../css/mui.picker.css" rel="stylesheet" />
+		<link href="../../css/mui.poppicker.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 class="mui-title">填写地址</h1>
 		</header>
-		<!--页面标题栏开始-->
-		<!--<div class="mui-navbar-inner mui-bar mui-bar-nav">
-			<button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
-				<span class="mui-icon mui-icon-left-nav"></span>
-			</button>
-			<h1 class="mui-center mui-title">货物信息</h1>
-		</div>-->
 		<div class="mui-content">
 			<ul class="mui-table-view mui-table-view-chevron">
 				<div class="mui-input-row">
 					<label><span class="description color-red" >区</span></label>
-					<input id="cargo_type" type="text" placeholder="点击选择区域" readonly="readonly" />
+					<input id="area" type="text" placeholder="点击选择区域" readonly="readonly" />
 				</div>
 			</ul>
 			<ul class="mui-table-view mui-table-view-chevron">
 				<div class="mui-input-row">
 					<label><span class="description color-red" >街乡</span></label>
-					<input id="cargo_type" type="text" placeholder="点击选择街乡" readonly="readonly" />
+					<input id="street" type="text" placeholder="点击选择街乡" readonly="readonly" />
 				</div>
 			</ul>
 			<ul class="mui-table-view mui-table-view-chevron">
 				<div class="mui-input-row">
 					<label><span class="description color-red" >社区</span></label>
-					<input id="cargo_type" type="text" placeholder="点击选择社区" readonly="readonly" />
+					<input id="community" type="text" placeholder="点击选择社区" readonly="readonly" />
 				</div>
 			</ul>
 			<ul class="mui-table-view mui-table-view-chevron">
 				<div class="mui-input-row">
 					<label><span class="description color-red" >小区</span></label>
-					<input id="cargo_type" type="text" placeholder="点击选择小区" readonly="readonly" />
+					<input id="building" type="text" placeholder="点击选择小区" readonly="readonly" />
 				</div>
 			</ul>
 			<ul class="mui-table-view mui-table-view-chevron">
 				<div class="mui-input-row">
 					<label><span class="description color-red" >单元</span></label>
-					<input id="cargo_type" type="text" placeholder="点击选择单元" readonly="readonly" />
+					<input id="unit" type="text" placeholder="点击选择单元" readonly="readonly" />
 				</div>
 			</ul>
 			<ul class="mui-table-view mui-table-view-chevron" style="text-align: center;padding: 5px;">
@@ -62,5 +58,8 @@
 	</body>
 	<script src="../../js/mui.min.js"></script>
 	<script src="../../js/app.js"></script>
+	<script src="../../js/mui.picker.js"></script>
+	<script src="../../js/mui.poppicker.js"></script>
+	<script src="../../Sys/common/ajax.js"></script>
 	<script src="../js/save.js"></script>
 </html>
